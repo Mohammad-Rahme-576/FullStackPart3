@@ -2,7 +2,7 @@
 //Extract the code that handles the communication with the backend into its own  
 import axios from 'axios'
 
-const baseUrl = 'http://localhost:3001/api/persons'
+const baseUrl = '/api/persons'
 
 
 const getAll = () =>{
